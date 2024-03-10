@@ -6,7 +6,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import clientPromise from "@/libs/mongoconnect";
-import { UserInfo } from "@/models/UserInfos";
+import { UserInfo } from "@/models/UserInfo";
 
 export const authOptions = {
   secret: process.env.SECRET,
