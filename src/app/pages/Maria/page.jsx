@@ -40,8 +40,9 @@ export default function FutbolkaMariaPage() {
     });
   }, []);
 
+  const firstInput = inputRefs.current[0];
+  
   useEffect(() => {
-    const firstInput = inputRefs.current[0];
     if (firstInput) {
       setValueSize(firstInput.id);
       menuItems.filter((item) => {
