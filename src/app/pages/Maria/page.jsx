@@ -41,8 +41,9 @@ export default function FutbolkaMariaPage() {
   }, []);
 
   useEffect(() => {
-    if (inputRefs.current[0]) {
-      setValueSize(inputRefs.current[0].id);
+    const firstInput = inputRefs.current[0];
+    if (firstInput) {
+      setValueSize(firstInput.id);
       menuItems.filter((item) => {
         if (item.name.split(" ")[1] === "Maria") {
           setiItemId(item._id);
@@ -52,7 +53,7 @@ export default function FutbolkaMariaPage() {
         }
       });
     }
-  }, [inputRefs.current[0], menuItems]);
+  }, [firstInput, menuItems]);
 
   function handleAddToCartButtonClick() {
     const infoCart = { itemId, valueName, valueSize, productImage, price };

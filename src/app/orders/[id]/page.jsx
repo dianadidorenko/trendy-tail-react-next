@@ -12,8 +12,6 @@ export default function OrderPage() {
   const [order, setOrder] = useState();
   const { id } = useParams();
 
-  console.log(order);
-
   useEffect(() => {
     if (typeof window.console !== "undefined") {
       if (window.location.href.includes("clear-cart=1")) {
@@ -49,7 +47,7 @@ export default function OrderPage() {
         <div className="grid grid-cols-2 gap-16 p-8 max-w-[900px] mx-auto">
           <div>
             {order.cartProducts.map((product) => (
-              <CartProduct product={product} />
+              <CartProduct product={product} key={product._id} />
             ))}
             <div className="mt-4">
               <p className="pl-2">Сума замовлення: {total} ₴</p>
