@@ -45,13 +45,28 @@ export default function MainSlider() {
         className="main-swiper"
       >
         <SwiperSlide>
-          <img src={"/main-page/slider/01.jpg"} alt="slide_image" />
+          <Image
+            src={"/main-page/slider/01.jpg"}
+            width="1000"
+            height="678"
+            alt="slide_image"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/main-page/slider/02.jpg"} alt="slide_image" />
+          <Image
+            src={"/main-page/slider/02.jpg"}
+            width="1000"
+            height="678"
+            alt="slide_image"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/main-page/slider/03.jpg"} alt="slide_image" />
+          <Image
+            src={"/main-page/slider/03.jpg"}
+            width="1000"
+            height="678"
+            alt="slide_image"
+          />
         </SwiperSlide>
 
         <div className="slider-controler">

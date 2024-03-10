@@ -28,7 +28,7 @@ export default function CataloguePage() {
         setItems(productItems);
       });
     });
-  }, []);
+  }, [items]);
 
   const filterCategory = (items, selectedCategory) => {
     return items.filter((item) => item.category === selectedCategory);

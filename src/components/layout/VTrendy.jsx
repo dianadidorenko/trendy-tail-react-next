@@ -51,10 +51,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/dosshovik-ariel.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -73,10 +75,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/futbolka-maria.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -95,10 +99,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-bim.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -117,10 +123,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-delicate-sira.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -142,10 +150,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/dosshovik-ariel.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -164,10 +174,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/futbolka-maria.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -186,10 +198,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-bim.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -208,10 +222,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-delicate-sira.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -233,10 +249,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/dosshovik-ariel.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -255,10 +273,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/futbolka-maria.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -277,10 +297,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-bim.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}
@@ -299,10 +321,12 @@ export default function VTrendy() {
             <div className="vtrendy-item">
               <Link href={"/"}>
                 <div className="vtrendy-item-image">
-                  <img
+                  <Image
                     src={"/main-page/vtrendy/tolstovka-delicate-sira.jpg"}
                     className="vtrendy-product"
                     alt="slide_image"
+                    width={171}
+                    height={171}
                   />
                   <Image
                     src={"/icons/search.svg"}

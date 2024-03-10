@@ -54,10 +54,8 @@ export default function ProductItem(productItem) {
       <div className="flex gap-2">
         {sizes?.length > 0 &&
           sizes.map((s) => (
-            <div>
-              <p key={s.name._id} className="text-md">
-                {s.name}
-              </p>
+            <div key={s.name._id}>
+              <p className="text-md">{s.name}</p>
             </div>
           ))}
       </div>

@@ -24,7 +24,7 @@ export default function EditProductItem() {
         setProductItem(item);
       });
     });
-  }, []);
+  }, [id]);
 
   async function handleFormSubmit(ev, data) {
     ev.preventDefault();

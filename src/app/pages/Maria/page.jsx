@@ -52,7 +52,7 @@ export default function FutbolkaMariaPage() {
         }
       });
     }
-  }, [inputRefs.current[0]]);
+  }, [inputRefs.current[0], menuItems]);
 
   function handleAddToCartButtonClick() {
     const infoCart = { itemId, valueName, valueSize, productImage, price };
@@ -74,8 +74,8 @@ export default function FutbolkaMariaPage() {
       {menuItems
         .filter((item) => item.name.split(" ")[1] === "Maria")
         .map((i) => (
-          <section>
-            <div key={i._id} className="flex justify-center my-10 gap-10">
+          <section key={i._id}>
+            <div className="flex justify-center my-10 gap-10">
               <div className="flex flex-col gap-2">
                 <div className="flex gap-2 items">
                   <div>
@@ -197,7 +197,7 @@ export default function FutbolkaMariaPage() {
                     i.sizes.map(
                       (p) =>
                         valueSize === p.name && (
-                          <span>{p.priceBeforeDiscount} ₴</span>
+                          <span key={p._id}>{p.priceBeforeDiscount} ₴</span>
                         )
                     )}
                 </p>
@@ -207,7 +207,10 @@ export default function FutbolkaMariaPage() {
 
                   {valueSize &&
                     i.sizes.map(
-                      (p) => valueSize === p.name && <span>{p.price} ₴</span>
+                      (p) =>
+                        valueSize === p.name && (
+                          <span key={p.name}>{p.price} ₴</span>
+                        )
                     )}
                 </p>
                 <button
@@ -270,7 +273,6 @@ export default function FutbolkaMariaPage() {
                         height={200}
                         objectFit={"cover"}
                       />
-                      <img />
                       <p>&Xi;</p>
                       <p className="text-center">
                         Переконайтесь, що ваш собака стоїть прямо. Виміряйте
